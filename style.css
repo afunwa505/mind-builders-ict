@@ -148,10 +148,13 @@ ul>li{
   }
   @media screen and (max-width: 575px) {
     #arrow-up{
+        width: 10%;
+        height: 40px;
         top: 50%;
         font-size: small;
         background-color: black;
         color: white;
+        border-radius: 50%;
     }
     nav{
         width: 100%
