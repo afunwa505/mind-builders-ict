@@ -150,6 +150,8 @@ ul>li{
     #arrow-up{
         top: 50%;
         font-size: small;
+        background-color: black;
+        color: white;
     }
     nav{
         width: 100%
