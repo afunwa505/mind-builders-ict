@@ -196,14 +196,16 @@ ul>li{
     }
     #web-dev{
         width: 90%;
-        height: 300px;
+        height: 350px;
         font-size: small;
+        margin: 30px auto;
     }
     #app-dev, #chess, #scratch, #data-analysis, #computer-appreciation, #foreign-language{
         width: 90%;
-        height: 300px;
+        height: 320px;
         font-size: small;
         padding: 0 10px;
+        margin: 100px auto;
     }
     .article2{
         font-size: small;
