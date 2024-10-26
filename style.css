@@ -1,0 +1,210 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    line-height: 1.5;
+}
+body{
+    width: 100%;
+    background: #ffffff;
+    color: purple;
+    font-size: x-large;
+}
+a{
+    color: purple;
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+  
+}
+.title{
+    width: 20%;
+    color: purple;
+    background: white;
+    padding: 20px 0 0 50px;
+}
+.navigation{
+    width: 80%;
+}
+ul{
+    display: flex;
+}
+ul>li{
+    padding: 30px 40px 0 20%;
+    list-style: none;
+}
+.intro{
+    width: 100%;
+    height: 170px;
+    text-align: center;
+    margin: 200px 0 0 0;
+    animation-name: article1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes article1{
+    0%{
+        scale: 0;
+    }
+    100%{
+        scale: 1;
+    }
+}
+.article{
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    margin: 70px 0 0 0;
+}
+
+.article2{
+    width: 100%;
+    text-align: center;
+    margin: 70px 0 0 0;
+}
+.learn-more{
+    width: 15%;
+    height: 60px;
+    border: 1px solid purple;
+    border-radius: 10px;
+    margin: 40px auto;
+    text-align: center;
+    padding: 10px 0 0 0;
+}
+.learn-more:hover{
+    background: purple;
+    color: #ffffff;
+}
+.our-service{
+    width: 100%;
+    text-align: center;
+    margin: 90px 0 100px 0;
+}
+#arrow-up{
+    position: absolute;
+    position: fixed;
+    top: 90%;
+    left: 85%;
+}
+#arrow-up:hover{
+    color: red;
+}
+#web-dev{
+    width: 50%;
+    height: 450px;
+    border: 2px solid wheat;
+    box-shadow: 0 2px 2px 0 black;
+    margin: 50px auto;
+    text-align: center;
+}
+.img{
+    width: 50%;
+    height: 500px;
+    margin: 60px 0 0 26%;
+}
+#app-dev, #chess, #scratch, #data-analysis, #computer-appreciation, #foreign-language{
+    width: 50%;
+    height: 450px;
+    box-shadow: 0 2px 2px 0 black;
+    border: 2px solid wheat;
+    border-radius: 7px;
+    margin: 200px auto;
+    text-align: center;
+}
+.myslides{
+    width: 50%;
+    height: 600px;
+    margin: 190px auto;
+    border-radius: 10px;
+}
+.reveal{
+    opacity: 0;
+    transition: 2s all ease;
+  }
+  .reveal.active{
+    opacity: 1;
+  }
+  .contact-us{
+    width: 100%;
+    height: 250px;
+    background: url('/img/bg5.JPG');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 60px 0 0 40px;
+    color: #ffffff;
+  }
+  footer{
+    width: 100%;
+    height: 100px;
+    background: grey;
+    padding: 40px 0 0 40px;
+    color: #ffffff;
+  }
+  @media screen and (max-width: 575px) {
+    #arrow-up{
+        top: 50%;
+        font-size: small;
+    }
+    .title{
+        font-size: x-small;
+        padding: 30px 0 0 20px;
+    }
+    a{
+        font-size: x-small;
+    }
+    ul>li{
+        padding: 30px 20px 0 20%;
+        list-style: none;
+    }
+    .intro{
+        margin: 100px 0 0 0;
+        font-size: small;
+    }
+    .article{
+        font-size: small;
+    }
+    .learn-more{
+        width: 30%;
+        padding: 20px 0 0 0;
+    }
+    .img{
+        height: 300px;
+    }
+    .our-service{
+        font-size: small;
+    }
+    #web-dev{
+        width: 90%;
+        height: 300px;
+        font-size: small;
+    }
+    #app-dev, #chess, #scratch, #data-analysis, #computer-appreciation, #foreign-language{
+        width: 90%;
+        height: 300px;
+        font-size: small;
+        padding: 0 10px;
+    }
+    .article2{
+        font-size: small;
+        padding: 0 10px;
+    }
+    .myslides{
+        width: 80%;
+        height: 300px;
+    }
+    .contact-us{
+        height: 100px;
+        font-size: small;
+        padding: 20px 0 0 40px;
+    }
+    footer{
+        font-size: small;
+        height: 80px;
+    }
+  }
