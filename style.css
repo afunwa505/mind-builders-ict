@@ -166,7 +166,7 @@ ul>li{
         font-size: xx-small;
     }
     ul>li{
-        padding: 30px 20px 0 20%;
+        padding: 30px 20px 0 0;
         list-style: none;
     }
     .intro{
