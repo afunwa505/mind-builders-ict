@@ -201,7 +201,7 @@ ul>li{
         font-size: small;
         margin: 30px auto;
         border: 0;
-        box-shadow: 0;
+       box-shadow: 0 0 0 0;
     }
     #app-dev, #chess, #scratch, #data-analysis, #computer-appreciation, #foreign-language{
         width: 100%;
@@ -210,7 +210,7 @@ ul>li{
         padding: 0 10px;
         margin: 30px auto;
         border: 0;
-        box-shadow: 0;
+       box-shadow: 0 0 0 0;
     }
     .article2{
         font-size: small;
