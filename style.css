@@ -98,8 +98,8 @@ ul>li{
 #web-dev{
     width: 50%;
     height: 450px;
-    border: 2px solid wheat;
-    box-shadow: 0 2px 2px 0 black;
+    border: 1px solid wheat;
+    box-shadow: 0 1px 0 0;
     margin: 50px auto;
     text-align: center;
 }
@@ -111,10 +111,10 @@ ul>li{
 #app-dev, #chess, #scratch, #data-analysis, #computer-appreciation, #foreign-language{
     width: 50%;
     height: 450px;
-    box-shadow: 0 2px 2px 0 black;
+    box-shadow: 0 1px 0 0;
     border: 2px solid wheat;
     border-radius: 7px;
-    margin: 200px auto;
+    margin: 50px auto;
     text-align: center;
 }
 .myslides{
