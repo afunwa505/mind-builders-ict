@@ -17,11 +17,13 @@ body{
     display: none;
 }
 .mobile-div{
-    width: 80%;
+    width: 60%;
     height: 400px;
-    background: #000000;
+    background: purple;
     color: #ffffff;
     display: none;
+    position: absolute;
+    top: 10%;
 }
 .mobile-div a{
     color: #ffffff;
