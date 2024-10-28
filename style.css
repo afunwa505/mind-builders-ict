@@ -10,6 +10,29 @@ body{
     color: purple;
     font-size: large;
 }
+#hamburger, #close{
+    position: absolute;
+    top: 4%;
+    left: 90%;
+    display: none;
+}
+.mobile-div{
+    width: 80%;
+    height: 400px;
+    background: #000000;
+    color: #ffffff;
+    display: none;
+}
+.mobile-div a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.mobile-div li{
+    padding: 70px 0 0 20%;
+}
+.mobile-title{
+    display: none;
+}
 a{
     color: purple;
     text-decoration: none;
