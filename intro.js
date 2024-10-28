@@ -55,3 +55,30 @@ function topFunction() {
   document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 } 
+
+
+
+const mobileDiv = document.querySelector('.mobile-div');
+
+
+
+function show(){
+  const hamburger = document.querySelector('#hamburger');
+
+  const close = document.querySelector('#close');
+
+  mobileDiv.style.display='block';
+  hamburger.style.display='none';
+  close.style.display='block';
+}
+
+
+function hide(){
+ 
+  const hamburger = document.querySelector('#hamburger');
+
+  const close = document.querySelector('#close');
+  mobileDiv.style.display='none';
+  hamburger.style.display='block';
+  close.style.display='none';
+}
