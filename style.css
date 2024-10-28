@@ -98,7 +98,7 @@ ul>li{
 #web-dev{
     width: 50%;
     height: 450px;
-    
+    border: 1px solid wheat;
     box-shadow: 0 1px 0 0;
     margin: 50px auto;
     text-align: center;
@@ -200,7 +200,7 @@ ul>li{
         font-size: small;
         margin: 30px auto;
          box-shadow: 0 1px 0 0 ;
-    border: 1px solid wheat;
+    border: 0;
     }
     #app-dev, #chess, #scratch, #data-analysis, #computer-appreciation, #foreign-language{
         width: 90%;
