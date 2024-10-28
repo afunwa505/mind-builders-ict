@@ -203,6 +203,7 @@ ul>li{
         margin: 30px auto;
         border: 0;
        box-shadow: 0 0 0 0;
+        padding: 0 10px;
     }
     #app-dev, #chess, #scratch, #data-analysis, #computer-appreciation, #foreign-language{
         width: 100%;
