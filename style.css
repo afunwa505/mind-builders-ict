@@ -189,6 +189,15 @@ ul>li{
         margin: 30px 0 0 40px;
         font-size: x-small;
     }
+      .mobile-div{
+        width: 80%;
+        height: 600px;
+    }
+    .mobile-div li{
+        padding: 70px 0 0 20%;
+        display: block;
+        font-size: large;
+    }
     #arrow-up{
         width: 12%;
         height: 40px;
