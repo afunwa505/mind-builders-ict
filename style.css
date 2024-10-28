@@ -57,10 +57,10 @@ nav{
 .navigation{
     width: 80%;
 }
-ul{
+.navigation ul{
     display: flex;
 }
-ul>li{
+.navigation ul>li{
     padding: 30px 40px 0 20%;
     list-style: none;
 }
