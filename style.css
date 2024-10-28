@@ -192,11 +192,13 @@ nav{
    .mobile-div{
         width: 80%;
         height: 600px;
-        top: 20%;
+        top: 15%;
     }
     .mobile-div ul>li{
         padding: 70px 0 0 20%;
         display: block;
+    }
+    .mobile-div a{
         font-size: large;
     }
     #arrow-up{
