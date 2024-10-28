@@ -221,6 +221,7 @@ ul>li{
     .myslides{
         width: 100%;
         height: 350px;
+        border-radius: 0;
     }
     .contact-us{
         height: 100px;
